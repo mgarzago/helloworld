@@ -11,6 +11,6 @@ public class HelloWorldController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody
     public String helloWorld(){
-        return "Hello World";
+        return "Hello World!";
     }
 }
